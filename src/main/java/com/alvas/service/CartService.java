@@ -1,5 +1,7 @@
 package com.alvas.service;
 
-public interface CartService {
+import com.alvas.dto.CartDto;
 
+public interface CartService {
+	String addToCart(long userId,CartDto cartDto);
 }
