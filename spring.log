@@ -1,0 +1,53 @@
+2023-03-07 16:32:09.493  INFO 30500 --- [restartedMain] com.alvas.EcommerceApplication           : Starting EcommerceApplication using Java 17.0.4.1 on manu with PID 30500 (C:\Users\user\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Ecommerce-Application\target\classes started by user in C:\Users\user\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Ecommerce-Application)
+2023-03-07 16:32:09.494  INFO 30500 --- [restartedMain] com.alvas.EcommerceApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-07 16:32:09.546  INFO 30500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-07 16:32:09.546  INFO 30500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-07 16:32:10.238  INFO 30500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-07 16:32:10.307  INFO 30500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 5 JPA repository interfaces.
+2023-03-07 16:32:10.862  INFO 30500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-07 16:32:10.873  INFO 30500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-07 16:32:10.874  INFO 30500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-07 16:32:10.951  INFO 30500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-07 16:32:10.952  INFO 30500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1405 ms
+2023-03-07 16:32:11.086  INFO 30500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-07 16:32:11.152  INFO 30500 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-03-07 16:32:11.337  INFO 30500 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-07 16:32:11.431  INFO 30500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-07 16:32:11.740  INFO 30500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-07 16:32:11.772  INFO 30500 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-07 16:32:14.123  INFO 30500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-07 16:32:14.136  INFO 30500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-07 16:32:14.286  WARN 30500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-07 16:32:15.412  INFO 30500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-07 16:32:15.468  INFO 30500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-07 16:32:15.481  INFO 30500 --- [restartedMain] com.alvas.EcommerceApplication           : Started EcommerceApplication in 6.354 seconds (JVM running for 7.123)
+2023-03-07 16:48:39.888  INFO 30500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-03-07 16:48:39.922  INFO 30500 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-07 16:48:39.932  INFO 30500 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-07 16:48:39.936  INFO 30500 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-07 16:48:39.944  INFO 30500 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-07 16:48:40.014  INFO 30500 --- [restartedMain] com.alvas.EcommerceApplication           : Starting EcommerceApplication using Java 17.0.4.1 on manu with PID 30500 (C:\Users\user\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Ecommerce-Application\target\classes started by user in C:\Users\user\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Ecommerce-Application)
+2023-03-07 16:48:40.015  INFO 30500 --- [restartedMain] com.alvas.EcommerceApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-07 16:48:40.216  INFO 30500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-07 16:48:40.250  INFO 30500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 5 JPA repository interfaces.
+2023-03-07 16:48:40.353  INFO 30500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-07 16:48:40.354  INFO 30500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-07 16:48:40.354  INFO 30500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-07 16:48:40.369  INFO 30500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-07 16:48:40.370  INFO 30500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 354 ms
+2023-03-07 16:48:40.401  INFO 30500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-07 16:48:40.405  INFO 30500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-03-07 16:48:40.419  INFO 30500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-03-07 16:48:40.420  INFO 30500 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-07 16:48:40.540  INFO 30500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-07 16:48:40.541  INFO 30500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-07 16:48:40.582  WARN 30500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-07 16:48:41.031  INFO 30500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-07 16:48:41.050  INFO 30500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-07 16:48:41.056  INFO 30500 --- [restartedMain] com.alvas.EcommerceApplication           : Started EcommerceApplication in 1.07 seconds (JVM running for 992.698)
+2023-03-07 16:48:41.059  INFO 30500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-07 16:48:42.724  INFO 30500 --- [RMI TCP Connection(20)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-07 16:48:42.735  INFO 30500 --- [RMI TCP Connection(20)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-07 16:48:42.742  INFO 30500 --- [RMI TCP Connection(20)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-07 16:48:42.742  INFO 30500 --- [RMI TCP Connection(20)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-03-07 16:48:42.746  INFO 30500 --- [RMI TCP Connection(20)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
